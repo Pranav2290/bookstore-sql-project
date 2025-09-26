@@ -109,4 +109,36 @@ LEFT JOIN orders o on b.book_id = o.book_id
 group by b.book_id;
 ```
 ## 📊 Sample Output (Screenshots)
-! 
+![Query 1 Output](screenshots/query1_output.png)
+
+## 🛠️ Tech Stack
+
+ + **Database**: PostgreSQL
+
++ **Client Tool**: pgAdmin 4
+
+## 🚀 How to Run
+#### 1.Clone this repo
+```bash
+git clone https://github.com/Pranav2290/bookstore-sql-project.git
+```
+#### 2.Create database in PostgreSQL
+```sql
+CREATE DATABASE bookstore;
+```
+#### 3.Run schema
+```bash
+psql -U postgres -d bookstore -f schema.sql
+```
+#### 4.Import data from /data folder.
+
+#### 5.Execute queries from /queries folder.
+
+## 📈 Learnings
+Through this project, I practiced and understood:
++ Designing a relational database schema.
++ Writing SQL queries (CRUD, aggregations, joins, window functions).
++ Extracting business insights from data.
++ Using GitHub for version control & project documentation.
+
+
